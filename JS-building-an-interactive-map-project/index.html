@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script> -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+
+  <title>JS-building-an-interactive-map-project</title>
+</head>
+<body>
+   <div id="map"></div>
+
+  <form id="dropdown">
+
+    <select name="Businesses" id="businesses">
+        <option value="coffee">Coffee Shops</option>
+    <option value="restaurant">Restaurants</option>
+    <option value="hotel">Hotels</option>
+    <option value="market">Markets</option>
+      </select>
+  <input type="submit">
+</form>
+      <style>
+
+            #map {
+        height: 600px;
+        background-color: #ccc;
+    }
+
+    .leaflet-popup-content-wrapper {
+        width: 100%;
+    }
+    </style>
+
+       <script src="script.js"></script>
+</body>
+</html>
